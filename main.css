@@ -1,0 +1,89 @@
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    /* background-color: FloralWhite; */
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-image: url("assets/ff_background.jpg");
+    
+    display: table;
+    background-size: 100% 100%;
+    
+    
+}
+
+ul {
+    list-style-type: none;
+    display: block;
+    position: fixed;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    top: 0;
+}
+
+li {
+    float: left;
+    text-align: center;
+    padding: 14px 16px;
+
+}
+
+li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+}
+
+li:hover {
+    background-color: #111;
+}
+
+#main {
+    
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, .4);
+    text-align: center;
+    width: 65%;
+    margin: auto;
+    margin-top: 5%;
+}
+
+.name{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 30px;
+    font-family: Verdanas, sans-serif;
+}
+
+.box {
+    color: white;
+    padding-right: 60px;
+    padding-left: 60px;
+    padding-bottom: 60px;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.thumbnail {
+    color: black;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 10px;
+    width: 80%;
+    margin: auto;
+}
+
+.desc {
+    margin-top: 50px;
+    text-align: justify;
+}
+.desc a {
+    color: Aquamarine;
+}
